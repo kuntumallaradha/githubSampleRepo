@@ -20,7 +20,8 @@ class Rectangle extends Shape {
 
 	@Override
 	public String toString() {
-		
+		System.out.println("2.Rectangle constructor called");
+
 		return "Rectangle color is " + super.getColor() + "and area is:" + area();
 	}
 

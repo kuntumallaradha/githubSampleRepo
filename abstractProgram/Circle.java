@@ -16,7 +16,11 @@ package abstractProgram;
 	@Override
 	public String toString() {
 		
+		
+		System.out.println("2. circle constructor called");
+
 		return "Circle color is" + super.getColor() + "and area is:" + area();
+
 	}
 	
 	 
