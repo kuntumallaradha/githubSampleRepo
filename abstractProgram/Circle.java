@@ -18,6 +18,7 @@ package abstractProgram;
 		
 		
 		System.out.println("2. circle constructor called");
+		System.out.println("Some changes added by radha");
 
 		return "Circle color is" + super.getColor() + "and area is:" + area();
 
